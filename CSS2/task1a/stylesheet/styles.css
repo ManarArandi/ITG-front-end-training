@@ -1,0 +1,80 @@
+h3 {
+    margin-top: 40px;
+    margin-bottom: 22px;
+    font-family: sans-serif, Arial;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 13px;
+
+  }
+
+  .center {
+
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input,
+  select {
+    margin-top: 2px;
+    padding: 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 2px;
+  }
+
+  .input {
+    width: 88%;
+  }
+
+  .input2 {
+    width: 93%;
+  }
+
+  .input3 {
+    padding: 7px 8px;
+    width: 102%;
+  }
+
+  .label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+  }
+
+  .button {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 12px;
+    width: 146px;
+    cursor: pointer;
+    background-color: white;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 30px;
+  }
+
+  .button:hover {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .td1 {
+    padding-right: 4px;
+    padding-left: 16px;
+  }
+
+  .td2 {
+    padding-left: 0px;
+  }
+
+  td {
+    padding: 7px;
+  }
+
+  .tdState {
+    padding-left: 14px;
+  }
