@@ -1,0 +1,63 @@
+h3 {
+  margin-top: 40px;
+  font-family: sans-serif, Arial;
+  font-size: 15px;
+  text-align: center;
+}
+
+.main-div {
+  width:399px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.half {
+  margin-top: 17px;
+  width: 49%;
+  display: inline-block;
+  
+}
+.half1{
+ margin-right: 4px;
+}
+
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 2px;
+  padding: 8px ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+.one-part {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 15px;
+  margin-top: 17px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  background-color: white;
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+  border-radius: 30px;
+
+}
+
+.button:hover {
+  background-color: dodgerblue;
+  color: white;
+}
