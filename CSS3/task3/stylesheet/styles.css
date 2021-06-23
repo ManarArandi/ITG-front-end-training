@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.burger {
+    margin:  auto;
+    min-width: 500px;
+    position: relative;
+
+}
+
+.tomato {
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    border: 3px solid #634126;
+}
+
+.tomato1 {
+    top: 57px;
+    left: 22px;
+    height: 80px;
+    width: 140px;
+}
+
+.tomato2 {
+    top: 63px;
+    left: 133px;
+    height: 70px;
+    width: 135px;
+}
+
+.lettuce {
+    width: 321px;
+    position: absolute;
+    top: 53px;
+    left: -25px;
+    background: green;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #634126;
+}
+
+.meat {
+    background: #A27732;
+    height: 60px;
+    width: 301px;
+    position: absolute;
+    left: -18px;
+    top: 80px;
+    border-radius: 60px/20px;
+    border: 6px solid #634126;
+}
+
+.bread {
+    background: rgb(255, 166, 118);
+    width: 261px;
+    border: 2px solid #634126;
+}
+
+.bread.top {
+    width: 295px;
+    height: 95px;
+    position: absolute;
+    left: -15px;
+    top: 10px;
+    border-radius: 100px / 50px;
+
+}
+
+.bread.top:after {
+    content: "";
+    display: block;
+
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+
+    box-shadow:
+        10px 30px #634126,
+        100px 31px #634126,
+        190px 16px #634126,
+
+        40px 50px #634126,
+        130px 50px #634126,
+        220px 33px #634126,
+
+        70px 70px #634126,
+        160px 70px #634126,
+        245px 60px #634126,
+
+        263px 40px #634126;
+}
+
+.bread.bottom {
+    position: absolute;
+    top: 100px;
+    height: 75px;
+    border-radius: 60px / 20px;
+    border: 6px solid #634126;
+}
+
+.col {
+    position: absolute;
+    left: 120px;
+    top: -72px;
+    width: 14px;
+    height: 80px;
+    background-color: #414042;
+    border: 2px solid #634126;
+}
+
+.triangle-right {
+    position: absolute;
+    left: 16px;
+    top: -2px;
+    border-top: 20px solid transparent;
+    border-left: 20px solid red;
+    border-bottom: 20px solid transparent;
+}
+
+.fries {
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    top: 115px;
+    left: 350px;
+    border: 6px solid #634126;
+    border-radius: 50px / 30px;
+    background-color: red;
+}
+
+.potato {
+
+    position: absolute;
+    display: flex;
+    top: 40px;
+    left: 355px;
+    width: 110px;
+    height: 105px;
+    border-radius: 4px;
+    padding-left: 25px;
+justify-content: space-evenly;
+}
+
+.items {
+
+    border: 3px solid #FED876;
+    background-color: #FFFF99;
+    border-radius: 4px;
+    width: 11px;
+    height: 105px;
+    margin-left: -25px;
+}
