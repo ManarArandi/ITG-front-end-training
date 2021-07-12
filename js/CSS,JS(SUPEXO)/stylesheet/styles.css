@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-block: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+  background-color: white;
+}
+.logo-div {
+  width: 109px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.logo {
+  width: 100%;
+  height: auto;
+}
+#arrow {
+  fill: white;
+  width: 10px;
+  padding-left: 2px;
+}
+/*---------------MENU----------------*/
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px 18px;
+  color: #003349;
+}
+
+.menu-item {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #515b69;
+}
+/*---------------MENU mobile----------------*/
+.menu-mobile {
+  overflow: auto;
+  transition: 0.3s ease-in-out;
+}
+.menu-mobile ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-mobile li:not(:last-child) {
+  background-color: #37507a;
+}
+.menu-mobile li:last-child {
+  background-color: #35baf2;
+}
+.menu-mobile li {
+  padding: 17px 30px;
+}
+.menu-mobile a {
+  text-decoration: none;
+  font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+/*---------------------------------*/
+.button1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(62, 2, 139),
+    rgb(145, 70, 244)
+  );
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 17px;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+#menu {
+  width: 26px;
+  fill: rgb(62, 2, 139);
+}
+/*--------------------------*/
+.content {
+  margin-bottom: 0px;
+  margin-top: 77px;
+}
+.img-div {
+  align-items: center;
+  background: url("https://drive.google.com/uc?export=view&id=13woZ6-hu-lZ_lS0g8ti9AWuCoVBmvVDK");
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  /*border-top: 2px solid #fff;*/
+  height: 100%;
+  overflow: hidden;
+
+  /*background: url("https://drive.google.com/uc?export=view&id=13woZ6-hu-lZ_lS0g8ti9AWuCoVBmvVDK") ;
+  background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: inherit;
+    z-index: 20;*/
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.content-text {
+  max-width: 1500px;
+  padding-top: 8%;
+  margin: 0 auto;
+  padding-bottom: 11%;
+  padding-left: 30px;
+}
+h1 {
+  font-size: 100px;
+  transform: scaleY(1.75);
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+.description {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-size: 28px;
+}
+#modal-button {
+  background-image: linear-gradient(
+    to right,
+    rgb(62, 2, 139),
+    rgb(145, 70, 244)
+  );
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 54px;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 26px;
+  margin-top: 31px;
+  cursor: pointer;
+}
+#arrow2 {
+  fill: white;
+  width: 18px;
+  padding-left: 2px;
+}
+/*--------Modal------------*/
+#modal-container {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+#modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  width: 50%;
+  margin: 6% auto;
+  padding: 10px;
+}
+.div-close-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+#modal-close-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio*/
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 6px;
+}
+.modal-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+}
+.show{
+  
+  transition: all .5s ease-in-out;
+  height: 0;
+}
+.show:target{
+  height: 286px;
+}
+/*-------------------------*/
+/*tablet & mobile */
+@media (max-width: 1023px) {
+  .menu-icon {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding-right: 30px;
+  }
+  .menu-mobile {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  #modal-content {
+    width: 60%;
+  }
+  .modal-text {
+    font-size: 14px;
+  }
+  #arrow2 {
+    width: 14px;
+  }
+  #modal-button {
+    font-size: 22px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 72px;
+  }
+}
+
+/*desktop*/
+@media (min-width: 1024px) {
+  .menu-icon {
+    display: none;
+  }
+  .show {
+    /*without adding this div the menu-mobile div will be always display as block in desktop if the last display of it block*/
+    display: none;
+  }
+}
+/*only mobile*/
+@media (max-width: 767px) {
+  #modal-content {
+    background-color: white;
+    margin: 18% auto;
+    padding: 10px;
+  }
+  .content-text {
+    text-align: center;
+  
+  }
+  #modal-button {
+    font-size: 18px;
+    padding: 12px 38px;
+  }
+  h1 {
+    font-size: 68px;
+}
+}
+::-webkit-scrollbar {
+  width: 0;
+}
