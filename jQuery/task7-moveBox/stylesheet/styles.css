@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+.container{
+    margin: auto;
+   /* width: 44%;*/
+   max-width: 590px;
+   min-width: 590px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    border: 3px solid black;
+    width: 95%;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+
+}
+.btn{
+    text-align: center;
+    margin-top: 15px;
+}
+.square{
+    border:5px solid;
+    width: 70px;
+    height: 70px;
+    margin: 15px 30px;
+}
+.square1{
+    border-color: crimson;
+}
+.square2{
+ border-color: gray;
+}
+.square3{
+    border-color: darkmagenta;
+}
+.square4{
+    border-color: indianred;
+}
+.square5{
+    border-color: yellow;
+}
+/*application/xhtml+xml*/

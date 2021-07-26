@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div wrap class="wrap">
+            <form id="myform">
+                <div class="one">
+                    <div class=part1>
+                        <label>Product Name</label>
+                        <input type="text" name="name" placeholder="ex: WOMEN'S BASE CAMP SWEATER">
+                    </div>
+                    <div class=part1>
+                        <label>Image URL</label>
+                        <input type="url" name="img" placeholder="ex: https://..">
+                    </div>
+                    <div class=part1>
+                        <label>Price</label>
+                        <input name="price" type="text" placeholder="ex: 97$">
+                    </div>
+                </div>
+                <div class="one">
+                    <div class=part1>
+                        <label>Product Description</label>
+                        <input type="text" name="des" placeholder="ex: WOMEN'S BASE CAMP SWEATER">
+                    </div>
+                    <div class=part1>
+                        <label>Badge text</label>
+                        <input type="text" name="text" placeholder="ex: New colors">
+                    </div>
+                    <div class=part1>
+                        <label>Badge color</label>
+                        <input type="text" name="color" placeholder="ex: #000000">
+                    </div>
+                </div>
+                <div class="one">
+                    <div class=part1>
+                        <input name="submit" class="btn" type="submit" value="Add Product">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="wrap">
+            <div class="items-list">
+            </div>
+        </div>
+        <div id="modal-container">
+            <div id="modal-content">
+
+                <p class="dialog-text"></p>
+
+                <div class="dialog-btn">
+                    <button class="dialog-btn1" id="yes" type="button">Yes</button>
+                    <button class="dialog-btn1" id="no" type="button">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+.body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.wrap{
+    max-width: 1600px;
+   /* border-bottom: 2px dotted burlywood;*/
+    margin: auto;
+}
+#myform{
+    display: flex;
+    flex-direction: column;
+  /*  background-color: brown;*/
+     justify-content: center;
+     gap:20px;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.part1{
+display: flex;
+font-family: 'PT Sans', sans-serif;
+/*background-color: burlywood;*/
+flex-direction: column;
+}
+input{
+    border-radius: 3px;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+.error{
+    font-size: 14px;
+    color: red;
+
+}
+.btn{
+    padding: 10px 52px;
+    background-color: transparent;
+    border: 2px solid burlywood;
+    border-radius: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+margin-bottom: 15px;
+cursor: pointer;
+}
+.btn:hover{
+    background-color:burlywood;
+    color: white;
+}
+/*-------------------------------------------------*/
+.items-list{
+    display: flex;
+   /* justify-content: center;*/
+  flex-wrap: wrap;
+}
+.item{
+      flex: 0 0 calc(100%/3);
+     /* text-align: center; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+      /*justify-content: center;*/
+}
+.item-img{
+  /*  background: #f5f5f5;*/
+  /* padding: 3% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+    height: 280px;
+    max-width: 100%;
+    /*padding-inline: 42px;*/
+}
+.name-price{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 36px;
+   /* width: 300px;*/
+}
+.two{
+    position: relative;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    width:70%;
+    padding-block: 60px;
+    font-family: 'PT Sans', sans-serif;
+}
+.three{
+    background-color: white;
+    width:70%;
+   
+}
+.edit-delete{
+    margin-top: 10px;
+   text-align: left;
+   /* width: 300px;*/
+}
+ .edit-delete button{
+    font-family: 'PT Sans', sans-serif;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+.edit-delete button:hover{
+  font-weight: bold; 
+}
+p{
+    min-height: 90px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.badge{
+    position: absolute;
+    top: 0;
+    left: 0;
+  /*  background-color: #6B82A8;*/
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    padding: 6px;
+}
+#dialog{
+    display: none;
+    
+}
+
+/*-------dialog-----------*/
+#modal-container {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  #modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    width: 30%;
+    margin: 15% auto;
+    padding: 10px;
+  }
+  
+  
+  .dialog-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-bottom: 46px;
+    min-height: 0;
+  }
+  .dialog-btn1{
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .dialog-btn{
+    text-align: center;
+   
+  }
+
+  
