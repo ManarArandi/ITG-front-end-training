@@ -1,0 +1,2 @@
+Tokens you have generated that can be used to access the GitHub API.
+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
